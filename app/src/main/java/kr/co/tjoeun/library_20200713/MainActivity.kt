@@ -25,7 +25,7 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setValues() {
-        val imgUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/170924_%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD%EC%9D%B4%EB%B2%A4%ED%8A%B8.jpg/250px-170924_%ED%91%B8%EB%93%9C%ED%8A%B8%EB%9F%AD%EC%9D%B4%EB%B2%A4%ED%8A%B8.jpg"
+        val imgUrl = "http://news.kbs.co.kr/data/news/2019/01/16/4117160_uS4.jpg"
         Glide.with(mContext).load(imgUrl).into(profileImg)
     }
 
